@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Asap', sans-serif;
+    background: #ebedf0;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.col {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.topbar ul li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.single-bet-place {
+    min-width: 150px;
+}
+
+.m-in-play {
+    padding: 5px;
+    line-height: 0.65;
+}
+
+.match-time {
+    width: 90px;
+}
+
+.single-bet-place {
+    position: relative;
+}
+
+@keyframes customFadeIn {
+    /* from { opacity: 1; }
+    to   { opacity: 0; } */
+
+    /* 50% {
+        opacity: 0;
+      } */
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.single-bet-place.bet-up:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent rgba(22, 163, 74, 1) transparent transparent;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    border-radius: 4px;
+    animation: customFadeIn 2s infinite alternate;
+}
+
+.single-bet-place.bet-down:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 20px 20px;
+    border-color: transparent transparent rgba(239, 68, 68, 1) transparent;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 4px;
+    animation: customFadeIn 2s infinite alternate;
+}
+
+.sports_Header {
+    background: linear-gradient(90deg, rgb(56, 38, 96) 0.5%, rgb(4, 139, 163) 100%);
+    /* background: rgb(0, 215, 255);
+  background: rgb(75, 142, 188); */
+    position: relative;
+    overflow: hidden;
+}
+
+.sports_Header .single-sports-img {
+    height: 80px;
+    max-width: none;
+    width: auto;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.4;
+    mix-blend-mode: lighten;
+    z-index: 1;
+}
+
+.sports_Header .single-sports-img.tennis-bg {
+    mix-blend-mode: luminosity;
+}
+
+.sports_Header .single-sports-img.basket-bg {
+    mix-blend-mode: color-dodge;
+    left: 43%;
+}
+
+.versace-icon {
+    mix-blend-mode: luminosity;
+}
+
+.schedue-header:before,
+.schedue-timer:before {
+    content: "";
+    position: absolute;
+    width: 318px;
+    height: 318px;
+    left: calc(100% - 250px);
+    top: -238px;
+    background: #FB355E;
+    filter: blur(100px) opacity(30%);
+    z-index: -1;
+}
+
+.schedue-header:afrer,
+.schedue-timer:before {
+    position: absolute;
+    content: "";
+    width: 435px;
+    height: 435px;
+    left: -145px;
+    top: 67px;
+    background: #29589A;
+    filter: blur(100px) opacity(40%);
+    z-index: -1;
+}
+
+.single-view-schedule .schedule-body .placing-bet a.place-a-bet {
+    min-width: 130px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.schedue-timer .all-timer-task .single-time
+{
+  border-right: 1px solid rgba(255, 242, 242, 0.2);
+
+}
