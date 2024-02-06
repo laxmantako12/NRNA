@@ -11,9 +11,9 @@ import {
     faChess
 } from '@fortawesome/free-solid-svg-icons'
 import { BeakerIcon } from '@heroicons/react/24/solid'
-import Icon1 from '../images/team-3.png';
-import Icon2 from '../images/team-4.png';
-import ballImage from '../images/football-bg.png';
+import Icon1 from '../assets/images/team-3.png';
+import Icon2 from '../assets/images/team-4.png';
+import ballImage from '../assets/images/football-bg.png';
 
 function Football() {
     return (

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import logo from '../images/nrna-logo.png';
+import logo from '../assets/images/nrna-logo.png';
 import { BeakerIcon } from '@heroicons/react/24/solid'
 const navigation = [
 
@@ -17,8 +17,8 @@ function Header() {
   return (
     <>
       <div className="bg-white">
-        <header className="fixed inset-x-0 top-0 z-50 pt-2 pb-2 shadow bg-white stickyy top-0">
-          <div className='container'>
+        <header className="inset-x-0 top-0 z-50 pt-2 pb-2 shadow bg-white sticky top-0">
+          <div className='container mx-auto max-w-7xl pr-2 pl-2'>
             <nav className="flex items-center justify-between" aria-label="Global">
               <div className="flex lg:flex-1">
                 <a href="#" className="logo">
@@ -59,11 +59,11 @@ function Header() {
                     className="-m-2.5 rounded-md p-2.5 text-gray-700"
                     onClick={() => setMobileMenuOpen(false)}
                   >
-                    <span className="sr-onl">Close menu</span>
+                    <span className="sr-only">Close menu</span>
                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="red" className="w-5 h-5">
+                    {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="red" className="w-5 h-5">
                       <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
-                    </svg>
+                    </svg> */}
 
                   </button>
                 </div>

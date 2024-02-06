@@ -1,5 +1,5 @@
 import React from 'react'
-import bannerImage from '../images/nrna_tournament_banner.jpg';
+import bannerImage from '../assets/images/nrna_tournament_banner.jpg';
 
 function Banner() {
   return (

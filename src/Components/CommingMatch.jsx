@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from '../styles/sass/heading.module.scss'
-import styleVariable from '../styles/sass/variable.module.scss'
-import team1 from '../images/team-3.png';
-import team2 from '../images/team-4.png';
-import VS from '../images/vs.png';
-import vectorLine from '../images/vector-line.png';
+
+
+import team1 from '../assets/images/team-3.png';
+import team2 from '../assets/images/team-4.png';
+import VS from '../assets/images/vs.png';
+import vectorLine from '../assets/images/vector-line.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faClock
@@ -13,18 +13,18 @@ import {
 function CommingMatch() {
     return (
         <div className='CommingMatch mb-14 mt-3'>
-            <div className={`container ${styles.globalHeading}`}>
+            <div className={`container mx-auto pr-2 pl-2 max-w-7xl globalHeading`}>
                 <h2 className='text-4xl mb-10 font-black text-gray-600 text-center'>
                     <span className='text-sm font-semibold uppercase block mb-2 tracking-wider'>next schedule</span>
                     Fixtures of all Upcoming Matches
                 </h2>
-                <div className='flex row'>
-                    <div className='col w-1/2 md:w-full'>
+                <div className='flex -mr-2 -ml-2'>
+                    <div className='pr-2 pl-2 w-1/2 md:w-full'>
                         <div className=''>
 
                             <div className='shadow  border-gray-800  overflow-hidden rounded bg-white'>
                                 <div className="single-view-schedule bg-white text-center">
-                                    <div className={`schedue-header p-5 text-white overflow-hidden z-10 relative ${styleVariable.graidentBg}`}>
+                                    <div className={`schedue-header p-5 text-white overflow-hidden z-10 relative graidentBg`}>
                                         <span className="tournament-name block text-2xl font-bold ">UEFA Champions League - 2022</span>
                                         <span className="stadium-name block mt-2">Tottenham Hotspur Stadium, london</span>
                                     </div>
@@ -55,7 +55,7 @@ function CommingMatch() {
                                             <a href="#0" className="place-a-bet border rounded ml-3 mr-3 text-slate-500 font-semibold ">4.32</a>
                                         </div>
                                     </div>
-                                    <div className={`schedue-timer timer flex items-center justify-between overflow-hidden relative ${styleVariable.graidentBg}`} data-date="30 Feb 2023 9:56:00 GMT+01:00">
+                                    <div className={`schedue-timer timer flex items-center justify-between overflow-hidden relative graidentBg`} data-date="30 Feb 2023 9:56:00 GMT+01:00">
                                         <div className="time-starting-text text-white text-base capitalize">
                                             <span className="txt">starting on</span>
                                             <img className="icon" src={vectorLine} alt="" />
@@ -83,7 +83,7 @@ function CommingMatch() {
                         </div>
                     </div>
                     {/* end col  */}
-                    <div className='col w-1/2 md:w-full'>
+                    <div className='pr-2 pl-2 w-1/2 md:w-full'>
                         <div className='shadow  border-gray-800 mb-6 overflow-hidden rounded bg-white'>
                             <div className="single-list-schedule flex items-center justify-between p-6">
                                 <div className="single-team flex items-center">
@@ -166,7 +166,7 @@ function CommingMatch() {
                     </div>
                     {/* emd col  */}
                 </div>
-                {/* end row  */}
+                {/* end -mr-2 -ml-2  */}
             </div>
         </div>
     )

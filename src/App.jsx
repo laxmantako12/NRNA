@@ -1,15 +1,18 @@
-import './App.css';
+import { useState } from 'react'
+import './App.css'
 import Header from './Components/Header';
-import Topbar from './Components/Topbar';
 import Banner from './Components/Banner';
+import Topbar from './Components/Topbar';
 import MainBody from './Components/MainBody';
 import CommingMatch from './Components/CommingMatch';
-import Footer from './Components/Footer';
 import Accept from './Components/Accept';
+import Footer from './Components/Footer';
 
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div className="App">
+    <>
       <Header />
       <Banner />
       <Topbar />
@@ -17,9 +20,9 @@ function App() {
       <CommingMatch />
       <Accept />
       <Footer />
-     
-    </div>
-  );
+
+    </>
+  )
 }
 
-export default App;
+export default App

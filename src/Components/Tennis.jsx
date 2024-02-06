@@ -12,9 +12,9 @@ import {
     faChess
 } from '@fortawesome/free-solid-svg-icons'
 import { BeakerIcon } from '@heroicons/react/24/solid'
-import Icon1 from '../images/team-3.png';
-import Icon2 from '../images/team-4.png';
-import tennisImage from '../images/tennis-bg.png';
+import Icon1 from '../assets/images/team-3.png';
+import Icon2 from '../assets/images/team-4.png';
+import tennisImage from '../assets/images/tennis-bg.png';
 
 function Tennis() {
     return (

@@ -1,8 +1,8 @@
 import React from 'react'
-import logo from '../images/etiket-logo.png';
-import esewa from '../images/nrna-logo.png';
-import khalti from '../images/khalti logo-01.svg';
-import visacard from '../images/800px-Visa_Electron.svg.png';
+import logo from '../assets/images/etiket-logo.png';
+import esewa from '../assets/images/nrna-logo.png';
+import khalti from '../assets/images/khalti logo-01.svg';
+import visacard from '../assets/images/800px-Visa_Electron.svg.png';
 
 function Accept() {
     // const logos = [logo, esewa, khalti, visacard, logo, khalti]; 
@@ -40,11 +40,11 @@ function Accept() {
     ];
     return (
         <div className='logos bg-white shadow pt-14 pb-14'>
-            <div className='container'>
+            <div className='container mx-auto pr-2 pl-2 max-w-7xl'>
                 <h2 className='text-3xl mb-8 font-black text-gray-600'>Our Partners</h2>
-                <div className='row flex items-center justify-between'>
+                <div className='flex items-center justify-between'>
                     {logos.map((logo, index) => (
-                        <div key={index} className='col w-1/5'>
+                        <div key={index} className='pr-2 pl-2 w-1/5'>
                             <div className='p-3 shadow flex items-center justify-center'>
                                 <img
                                     src={logo.logoSrc}
