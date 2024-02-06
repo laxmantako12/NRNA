@@ -160,9 +160,9 @@ background: rgb(75, 142, 188); */
 }
 
 .single-view-schedule .schedule-body .placing-bet a.place-a-bet {
-  min-width: 130px;
+  /* min-width: 100px;
   display: inline-block;
-  line-height: 40px;
+  line-height: 40px; */
 }
 
 .schedue-timer .all-timer-task .single-time

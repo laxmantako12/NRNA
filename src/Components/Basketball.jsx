@@ -38,19 +38,19 @@ function Basketball() {
                         <span className='count'>(3)</span>
                     </div>
                     {/* end  */}
-                    <div className='sports_content_item items-center border-slate-300 rounded-md border border-solid mb-4 p-6 flex justify-between'>
-                        <div className="match-time pr-6 text-center border-slate-300 border-r border-solid">
-                            <div className="time-icon">
+                    <div className='sports_content_item items-center border-slate-300 rounded-md border border-solid mb-4 p-6 sm:flex justify-between'>
+                        <div className="match-times flex md:block w-full md:w-24 pr-6 sm:text-center border-slate-300 border-r border-solid">
+                            <div className="time-icon hidden md:block">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 inline-block stroke-slate-400">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                                 </svg>
 
                             </div>
                             <div className="m-date text-slate-400 font-semibold">24 Nov</div>
-                            <div className="m-time font-bold text-green-600">9:22 am</div>
+                            <div className="m-time font-bold text-green-600 ml-1.5 md:ml-0">9:22 am</div>
                         </div>
                         {/* end  */}
-                        <div className="playing-teams w-80 flex flex-col pr-5 pl-5">
+                        <div className="playing-teams w-full md:w-80 flex flex-col md:pr-5 md:pl-5">
                             <div className="single-team flex justify-between">
                                 <div className="team-descr pt-1 pb-1 flex items-center">
                                     <span className="team-icon mr-2">
