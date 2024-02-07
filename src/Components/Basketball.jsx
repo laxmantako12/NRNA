@@ -38,8 +38,9 @@ function Basketball() {
                         <span className='count'>(3)</span>
                     </div>
                     {/* end  */}
-                    <div className='sports_content_item items-center border-slate-300 rounded-md border border-solid mb-4 p-6 sm:flex justify-between'>
-                        <div className="match-times flex md:block w-full md:w-24 pr-6 sm:text-center border-slate-300 border-r border-solid">
+                    <div className='sports_content_item aaa__1
+                     items-center border-slate-300 rounded-md border border-solid mb-4 p-6 flex-wrap md:flex-nowrap flex md:flex justify-between'>
+                        <div className="match-times flex md:block w-full md:w-24 md:pr-6 sm:text-center md:border-slate-300 md:border-r md:border-solid">
                             <div className="time-icon hidden md:block">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 inline-block stroke-slate-400">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -73,18 +74,18 @@ function Basketball() {
                         {/* end 
                                 
                                 */}
-                        <div className="placing-bet gap-20 pr-6 pl-6 border-slate-300 border-r border-l border-solid flex text-center">
-                            <a href="#" className="single-bet-place bg-slate-100 p-4 shadow border rounded-md">
+                        <div className="placing-bet gap-3 md:gap-4 md:pr-6 md:pl-6 border-slate-300 md:border-r md:border-l border-solid flex text-center">
+                            <a href="#" className="inline-block single-bet-place w-20 md:w-36 bg-slate-100 p-2 md:p-4 shadow border rounded-md">
                                 <span className="bet-ratio block font-bold text-slate-600">0.25</span>
-                                <span className="team-name block text-slate-500 font-semibold">Dinamo Zagreb</span>
+                                <span className="team-name block text-slate-500 font-semibold text-nowrap text-ellipsis whitespace-nowrap overflow-hidden">Dinamo Zagreb 1</span>
                             </a>
-                            <a href="#" className="single-bet-place bg-slate-100 p-4 shadow border rounded-md draw-box">
+                            <a href="#" className="inline-block single-bet-place w-20 md:w-36 bg-slate-100 p-2 md:p-4 shadow border rounded-md draw-box">
                                 <span className="bet-ratio block font-bold text-slate-600">1.42</span>
-                                <span className="team-name block text-slate-500 font-semibold" data-team-name="data-team-name">draw</span>
+                                <span className="team-name block text-slate-500 font-semibold" data-team-name="data-team-name text-nowrap text-ellipsis whitespace-nowrap overflow-hidden">draw</span>
                             </a>
-                            <a href="#0" className="single-bet-place bg-slate-100 p-4 shadow border rounded-md">
+                            <a href="#0" className="inline-block single-bet-place w-20 md:w-36 bg-slate-100 p-2 md:p-4 shadow border rounded-md">
                                 <span className="bet-ratio block font-bold text-slate-600">4.32</span>
-                                <span className="team-name block text-slate-500 font-semibold" data-team-name="data-team-name">Bodo-Glimt</span>
+                                <span className="team-name block text-slate-500 font-semibold text-nowrap text-ellipsis whitespace-nowrap overflow-hidden" >Bodo-Glimt</span>
                             </a>
                         </div>
                         {/* end  */}
@@ -141,11 +142,11 @@ function Basketball() {
                             </a>
                             <a href="#" className="single-bet-place bet-down bg-slate-100 p-4 shadow border rounded-md draw-box">
                                 <span className="bet-ratio block font-bold text-red-500">2.42</span>
-                                <span className="team-name block text-slate-500 font-semibold" data-team-name="data-team-name">draw</span>
+                                <span className="team-name block text-slate-500 font-semibold" >draw</span>
                             </a>
                             <a href="#0" className="single-bet-place bet-down bg-slate-100 p-4 shadow border rounded-md">
                                 <span className="bet-ratio block font-bold text-red-500">4.32</span>
-                                <span className="team-name block text-slate-500 font-semibold" data-team-name="data-team-name">Bodo-Glimt</span>
+                                <span className="team-name block text-slate-500 font-semibold" >Bodo-Glimt</span>
                             </a>
                         </div>
                         {/* end  */}
@@ -200,11 +201,11 @@ function Basketball() {
                             </a>
                             <a href="#" className="single-bet-place bg-slate-100 p-4 shadow border rounded-md draw-box">
                                 <span className="bet-ratio block font-bold text-slate-600">1.42</span>
-                                <span className="team-name block text-slate-500 font-semibold" data-team-name="data-team-name">draw</span>
+                                <span className="team-name block text-slate-500 font-semibold" >draw</span>
                             </a>
                             <a href="#0" className="single-bet-place bg-slate-100 p-4 shadow border rounded-md">
                                 <span className="bet-ratio block font-bold text-slate-600">4.32</span>
-                                <span className="team-name block text-slate-500 font-semibold" data-team-name="data-team-name">Bodo-Glimt</span>
+                                <span className="team-name block text-slate-500 font-semibold" >Bodo-Glimt</span>
                             </a>
                         </div>
                         {/* end  */}

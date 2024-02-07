@@ -13,7 +13,7 @@ import {
 function CommingMatch() {
     return (
         <div className='CommingMatch mb-14 mt-3'>
-            <div className={`container mx-auto pr-2 pl-2 max-w-7xl globalHeading`}>
+            <div className={`container mx-auto pr-2 pl-2 max-w-6xl globalHeading`}>
                 <h2 className='text-3xl md:text-4xl mb-10 font-black text-gray-600 text-center'>
                     <span className='text-sm font-semibold uppercase block mb-2 tracking-wider'>next schedule</span>
                     Fixtures of all Upcoming Matches

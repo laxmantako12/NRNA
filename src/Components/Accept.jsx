@@ -40,7 +40,7 @@ function Accept() {
     ];
     return (
         <div className='logos bg-white shadow pt-14 pb-14'>
-            <div className='container mx-auto pr-2 pl-2 max-w-7xl'>
+            <div className='container mx-auto pr-2 pl-2 max-w-6xl'>
                 <h2 className='text-3xl mb-8 font-black text-gray-600'>Our Partners</h2>
                 <div className='flex flex-wrap md:flex-nowrap items-center justify-between'>
                     {logos.map((logo, index) => (

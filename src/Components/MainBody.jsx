@@ -6,7 +6,7 @@ import Basketball from './Basketball'
 
 function MainBody() {
     return (
-        <div className='container mx-auto pr-2 pl-2 max-w-7xl'>
+        <div className='container mx-auto pr-2 pl-2 max-w-6xl'>
 
             <div className="pt-14  pb-5">
                 <div className="lg:flex">

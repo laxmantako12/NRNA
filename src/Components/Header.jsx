@@ -18,7 +18,7 @@ function Header() {
     <>
       <div className="bg-white">
         <header className="inset-x-0 top-0 z-50 pt-2 pb-2 shadow bg-white sticky top-0">
-          <div className='container mx-auto max-w-7xl pr-2 pl-2'>
+          <div className='container mx-auto max-w-6xl pr-2 pl-2'>
             <nav className="flex items-center justify-between" aria-label="Global">
               <div className="flex lg:flex-1">
                 <a href="#" className="logo">
