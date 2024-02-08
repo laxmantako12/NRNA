@@ -39,7 +39,7 @@ body {
   gap: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .single-bet-place {
     min-width: 150px;
   }
@@ -48,6 +48,11 @@ body {
 .m-in-play {
   padding: 5px;
   line-height: 0.65;
+}
+@media (max-width: 767px) {
+  .m-in-play {
+    line-height: 1;
+  }
 }
 
 .match-time {

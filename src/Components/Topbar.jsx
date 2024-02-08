@@ -18,16 +18,16 @@ function Topbar() {
     return (
         <div className='pt-6  pb-6 bg-slate-700 text-white topbar graidentBg overflow-x-auto'>
             <div className='container mx-auto pr-2 pl-2 max-w-6xl'>
-                <ul className='flex text-sm items-center justify-between'>
-                    <li><a><FontAwesomeIcon className='mr-2' icon={faHome} />Home</a></li>
-                    <li><a><FontAwesomeIcon className='mr-2' icon={faCoffee} />Live</a></li>
-                    <li><a><FontAwesomeIcon className='mr-2' icon={faFutbol} />Football</a></li>
-                    <li><a><FontAwesomeIcon className='mr-2' icon={faTableTennisPaddleBall} />Tennis</a></li>
-                    <li><a><FontAwesomeIcon className='mr-2' icon={faBasketball} />Basketball</a></li>
-                    <li><a><FontAwesomeIcon className='mr-2' icon={faFutbol} />Football</a></li>
-                    <li><a><FontAwesomeIcon className='mr-2' icon={faCircle} />Cricket</a></li>
-                    <li><a><FontAwesomeIcon className='mr-2' icon={faChess} />Chess</a></li>
-                    <li><a><FontAwesomeIcon className='mr-2' icon={faRunning} />Running</a></li>
+                <ul className='flex items-center justify-between'>
+                    <li><a className='inline-block md:flex items-center text-sm'><FontAwesomeIcon className='block w-full md:mr-2' icon={faHome} />Home</a></li>
+                    <li><a className='inline-block md:flex items-center text-sm'><FontAwesomeIcon className='block w-full md:mr-2' icon={faCoffee} />Live</a></li>
+                    <li><a className='inline-block md:flex items-center text-sm'><FontAwesomeIcon className='block w-full md:mr-2' icon={faFutbol} />Football</a></li>
+                    <li><a className='inline-block md:flex items-center text-sm'><FontAwesomeIcon className='block w-full md:mr-2' icon={faTableTennisPaddleBall} />Tennis</a></li>
+                    <li><a className='inline-block md:flex items-center text-sm'><FontAwesomeIcon className='block w-full md:mr-2' icon={faBasketball} />Basketball</a></li>
+                    <li><a className='inline-block md:flex items-center text-sm'><FontAwesomeIcon className='block w-full md:mr-2' icon={faFutbol} />Football</a></li>
+                    <li><a className='inline-block md:flex items-center text-sm'><FontAwesomeIcon className='block w-full md:mr-2' icon={faCircle} />Cricket</a></li>
+                    <li><a className='inline-block md:flex items-center text-sm'><FontAwesomeIcon className='block w-full md:mr-2' icon={faChess} />Chess</a></li>
+                    <li><a className='inline-block md:flex items-center text-sm'><FontAwesomeIcon className='block w-full md:mr-2' icon={faRunning} />Running</a></li>
                 </ul>
             </div>
         </div>
