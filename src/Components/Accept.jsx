@@ -38,6 +38,7 @@ function Accept() {
             logoSrc: logo,
         },
     ];
+    
     return (
         <div className='logos bg-white shadow pt-14 pb-14'>
             <div className='container mx-auto pr-2 pl-2 max-w-6xl'>
